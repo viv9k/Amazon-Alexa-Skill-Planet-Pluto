@@ -1,0 +1,267 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "planet pluto",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartPlaying",
+                    "slots": [
+                        {
+                            "name": "play",
+                            "type": "play"
+                        }
+                    ],
+                    "samples": [
+                        "start a new game",
+                        "ready to {play}",
+                        "ready {play}",
+                        "begin {play}",
+                        "lets {play}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "QuestionIntent",
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "answers"
+                        }
+                    ],
+                    "samples": [
+                        "{answer}",
+                        "okay {answer}",
+                        "it's {answer}",
+                        "is it {answer}",
+                        "It is {answer}"
+                    ]
+                },
+                {
+                    "name": "ContinuePlaying",
+                    "slots": [
+                        {
+                            "name": "play",
+                            "type": "play"
+                        }
+                    ],
+                    "samples": [
+                        "continue my last game",
+                        "continue previous game",
+                        "continue",
+                        "continue {play}"
+                    ]
+                },
+                {
+                    "name": "BlankIntent",
+                    "slots": [],
+                    "samples": [
+                        "it's",
+                        "okay",
+                        "it is",
+                        "is it"
+                    ]
+                },
+                {
+                    "name": "FeedbackIntent",
+                    "slots": [],
+                    "samples": [
+                        "option five feedback",
+                        "open feedback",
+                        "feedback",
+                        "I want to give feedback"
+                    ]
+                },
+                {
+                    "name": "UpdateIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me about updates",
+                        "updates",
+                        "Option four updates",
+                        "anything new",
+                        "what's new",
+                        "what are latest updates",
+                        "i wnat to know about update",
+                        "I want to know about updates"
+                    ]
+                },
+                {
+                    "name": "BackIntent",
+                    "slots": [],
+                    "samples": [
+                        "last menu",
+                        "last display",
+                        "last page",
+                        "take me to previous page",
+                        "take me back",
+                        "back",
+                        "i want to go back"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "play",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "play"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "playing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "start"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "answers",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "1957"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "27"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "moon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pluto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aryabhatta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "luna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "united states of america",
+                                "synonyms": [
+                                    "america",
+                                    "America",
+                                    "U S A",
+                                    "usa"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "apollo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "venus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mercury"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "8",
+                                "synonyms": [
+                                    "eight"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sun"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
