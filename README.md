@@ -1,0 +1,2 @@
+# Amazon-Alexa-Skill-Planet-Pluto
+This Skill is designed to fulfill the need of user to learn and as well as have a good story line, the sill includes questions and answers according related to space skill as the story line in passing through the space science and different problems. I also includes other learning experience like mathematics which will result in a better interaction model with users.
